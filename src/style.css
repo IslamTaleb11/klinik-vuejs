@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: Recursive;
+    src: url(/public/fonts/Recursive/Recursive-VariableFont_CASL,CRSV,MONO,slnt,wght.ttf);
+}
+
+@font-face {
+    font-family: Epilogue;
+    src: url(/public/fonts/Epilogue/Epilogue-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Jakarta;
+    src: url(/public/fonts/Jakarta/PlusJakartaSans-VariableFont_wght.ttf);
+}
