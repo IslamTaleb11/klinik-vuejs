@@ -54,7 +54,7 @@ http://localhost:8000/api/documentation
 
 ## Licenses
 - **Vue.js**: This project utilizes Vue.js, which is licensed under the MIT License. See the [Vue.js License](https://github.com/vuejs/core/blob/main/LICENSE) for details.
-- **Project License**: This project itself is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- **Project License**: This project itself is licensed under the AGPL-3.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## ⭐ Give It a Star!
 If you found this project helpful or interesting, please give it a star on GitHub! It helps others discover the project and motivates us to keep improving it. 🌟  
