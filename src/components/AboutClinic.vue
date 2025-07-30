@@ -51,8 +51,11 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="flex flex-col items-center dark:bg-darkmodebg">
-    <div id="counterContainer" class="w-[60%] mt-20 max-[768px]:mt-[300px] max-[1024px]:mt-[150px] py-32 max-[1024px]:py-20 flex max-[1024px]:gap-[50px] gap-[150px] max-[1024px]:flex-col max-[1024px]:w-full max-[1280px]:w-[80%] max-[1536px]:w-[90%] max-[1024px]:text-center max-[1024px]:items-center max-[1024px]:justify-center">
+  <div class="flex flex-col items-center dark:bg-darkmodebg bg-bgcolor">
+    <div id="counterContainer" class="w-[60%] mt-20 max-[768px]:mt-[300px] max-[1024px]:mt-[150px] py-32 
+    max-[1024px]:py-20 flex max-[1024px]:gap-[50px] gap-[150px] 
+    max-[1024px]:flex-col max-[1024px]:w-full max-[1280px]:w-[80%] max-[1536px]:w-[90%] 
+    max-[1024px]:text-center max-[1024px]:items-center max-[1024px]:justify-center">
       <div class="w-[45%] max-[1024px]:w-[80%]">
         <h1 class="font-recursive text-4xl font-bold max-[1024px]:text-2xl dark:text-white text-[#333333]">Our Impact</h1>
         <p class="font-recursive text-gray-400 tracking-wide mt-7 max-[1024px]:mt-4">Medicine is the field of health and healing. It includes nurses, doctors, and various specialists.</p>

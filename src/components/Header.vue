@@ -31,7 +31,7 @@ const toggle = () => {
       localStorage.setItem(bgThemeKey, 'dark');
     }
   } else {
-    localStorage.setItem(bgThemeKey, 'dark');
+    localStorage.setItem(bgThemeKey, 'light');
   }
 };
 
@@ -109,7 +109,7 @@ onMounted(async () => {
 
   <Toaster richColors position="top-right" />
 
-  <div class="flex justify-center dark:bg-darkmodebg">
+  <div class="flex justify-center">
     <div
       class="w-[60%] flex justify-between items-center py-10 max-[1280px]:w-[80%] max-[1536px]:w-[90%] max-[1024px]:w-full max-[1024px]:px-10 max-[1024px]:justify-center">
       <nav class="flex items-center gap-[50px] w-full max-[768px]:justify-between">

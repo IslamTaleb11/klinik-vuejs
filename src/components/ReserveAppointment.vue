@@ -9,7 +9,7 @@ function scrollToSection(id) {
 
 
 <template>
-    <div class="flex justify-center dark:bg-darkmodebg">
+    <div class="flex justify-center dark:bg-darkmodebg bg-bgcolor">
         <div v-motion-slide-visible-top
             class="w-[60%] max-[1536px]:w-[90%] bg-bgcolor dark:bg-primarycardsbg mt-36 p-10 flex max-[1024px]:flex-col max-[1024px]:text-center">
             <div

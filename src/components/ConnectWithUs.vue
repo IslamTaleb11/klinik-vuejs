@@ -4,7 +4,7 @@
 
 
 <template>
-    <div class="flex justify-center dark:bg-darkmodebg">
+    <div class="flex justify-center dark:bg-darkmodebg bg-bgcolor">
         <div v-motion-slide-visible-top class="w-[60%] mt-20 flex gap-20 max-[1024px]:flex-col max-[1536px]:w-[90%] max-[1024px]:text-center">
             <div class="w-1/2 max-[1024px]:w-full max-[1024px]:flex max-[1024px]:justify-center">
                 <img src="/src/assets/images/map.svg" alt="">

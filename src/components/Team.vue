@@ -3,7 +3,7 @@
 
 
 <template>
-<div class="flex justify-center dark:bg-darkmodebg">
+<div class="flex justify-center dark:bg-darkmodebg bg-bgcolor">
     <div v-motion-slide-visible-top class="w-[60%] mt-20 mb-20 max-[1536px]:w-[90%] max-[1024px]:text-center max-[1024px]:flex max-[1024px]:items-center max-[1024px]:flex-col">
         <h3 class="font-recursive text-[#A1A7B0] tracking-widest">Meet Our Experts</h3>
         <h1 class="font-recursive dark:text-white font-bold text-6xl max-[1024px]:text-4xl text-[#333333] mt-7">Our Team</h1>

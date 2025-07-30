@@ -6,7 +6,8 @@
 
 <template>
     <div class="bg-[#4A90E2] flex justify-center flex-col items-center dark:bg-darkmodebg">
-        <div class="w-[60%] max-[1536px]:w-[90%] mt-20 py-32 flex gap-44 max-[1280px]:gap-20 max-[1024px]:flex-col max-[1280px]:text-center">
+        <div
+            class="w-[60%] max-[1536px]:w-[90%] mt-20 py-32 flex gap-44 max-[1280px]:gap-20 max-[1024px]:flex-col max-[1280px]:text-center">
             <div>
                 <h1 class="font-recursive text-5xl text-white font-bold">Klinik</h1>
             </div>
@@ -16,6 +17,7 @@
                     <a href="" class="font-recursive font-semibold text-white dark:text-gray-400">About</a>
                     <a href="" class="font-recursive font-semibold text-white dark:text-gray-400">Service</a>
                     <a href="" class="font-recursive font-semibold text-white dark:text-gray-400">Contact</a>
+
                 </div>
             </div>
 
@@ -23,7 +25,8 @@
                 <div class="flex flex-col gap-5">
                     <h2 class="font-recursive text-gray-200 text-xl">SERVICE</h2>
                     <a href="" class="font-recursive font-semibold text-white dark:text-gray-400">Health Promotion</a>
-                    <a href="" class="font-recursive font-semibold text-white dark:text-gray-400">Reserve Appointment</a>
+                    <a href="" class="font-recursive font-semibold text-white dark:text-gray-400">Reserve
+                        Appointment</a>
                 </div>
             </div>
 
@@ -64,7 +67,8 @@
         </div>
         <div class="w-[60%] flex justify-between max-[1280px]:flex-col max-[1280px]:text-center max-[1280px]:gap-10">
             <div>
-                <h1 class="font-recursive text-gray-200 text-l dark:text-gray-400">©2024  Klinik.com. All rights reserved</h1>
+                <h1 class="font-recursive text-gray-200 text-l dark:text-gray-400">©2024 Klinik.com. All rights reserved
+                </h1>
             </div>
             <div class="gap-5 max-[1280px]:flex-col flex">
                 <div>
@@ -73,9 +77,11 @@
                 <div>
                     <a href="" class="font-recursive font-semibold text-white dark:text-gray-400">Privacy Policy</a>
                 </div>
-                
             </div>
-            
+            <div>
+                <p href="" class="font-recursive font-semibold text-white dark:text-gray-400">Developer Email:
+                    ddrboom4@gmail.com</p>
+            </div>
         </div>
     </div>
 </template>

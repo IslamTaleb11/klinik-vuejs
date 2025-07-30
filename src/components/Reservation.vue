@@ -83,7 +83,7 @@ const goToStripeCheckout = (checkoutUrl) => {
                 <div class="w-full md:w-1/3 flex flex-col items-center">
                     <h1 class="font-recursive text-2xl font-bold dark:text-gray-300">Select Department</h1>
                     <select @change="fetchDoctors" v-model="departmentId"
-                        class="select select-bordered w-full max-w-xs mt-3 dark:bg-slate-700 dark:text-gray-300">
+                        class="select select-bordered w-full max-w-xs mt-3 bg-white dark:bg-slate-700 dark:text-gray-300">
                         <option value="" disabled selected>Select Department</option>
                         <option v-for="department in departments" :key="department.id" :value="department.id">
                             {{ department.name }}</option>
@@ -92,7 +92,7 @@ const goToStripeCheckout = (checkoutUrl) => {
                 <div class="w-full md:w-1/3 flex flex-col items-center">
                     <h1 class="font-recursive text-2xl font-bold dark:text-gray-300">Choose Doctor</h1>
                     <select v-model="doctorId"
-                        class="select select-bordered w-full max-w-xs mt-3 dark:bg-slate-700 dark:text-gray-300">
+                        class="select select-bordered w-full max-w-xs mt-3 bg-white dark:bg-slate-700 dark:text-gray-300">
                         <option disabled selected>Select a doctor</option>
                         <option v-for="doctor in doctors" :key="doctor.id" :value="doctor.id">{{ doctor.name }} - ${{
                             doctor.appointment_price }}</option>
@@ -106,7 +106,7 @@ const goToStripeCheckout = (checkoutUrl) => {
                                 class: 'bg-primarycolor'
                             },
                         }" class="mt-3" inputClass="dark:bg-slate-700 dark:border-none rounded-xl dark:text-gray-300"
-                            inputStyle="border-color:#cacbd1;" />
+                            inputStyle="border-color:#cacbd1; background-color:#ffff;" />
 
 
                     </div>

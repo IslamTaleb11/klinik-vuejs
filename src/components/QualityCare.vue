@@ -5,7 +5,7 @@
 
 
 <template>
-    <div class="flex justify-center flex-col items-center dark:bg-darkmodebg">
+    <div class="flex justify-center flex-col items-center dark:bg-darkmodebg bg-bgcolor">
         <div v-motion-slide-visible-top class="w-[60%] flex flex-col justify-center items-center text-center mt-[120px]">
             <h3 class="font-recursive text-[#A1A7B0] tracking-widest">Quality Care</h3>
             <h1 class="font-recursive dark:text-white font-bold text-6xl max-[1024px]:text-4xl text-[#333333] mt-7">
